@@ -20,7 +20,7 @@ export function About() {
                 <span className="font-display font-bold text-[3.5rem] text-muted-foreground/60">KK</span>
               ) : (
                 <img
-                  src="/profile.jpg"
+                  src={`${import.meta.env.BASE_URL}profile.jpg`}
                   alt="Kinshuk Khandelwal"
                   onError={() => setPhotoError(true)}
                   className="w-full h-full object-cover grayscale contrast-[1.05]"
@@ -52,7 +52,7 @@ export function About() {
             <Reveal
               as="a"
               delay={240}
-              href="/Kinshuk_Khandelwal_Resume.pdf"
+              href={`${import.meta.env.BASE_URL}Kinshuk_Khandelwal_Resume.pdf`}
               download
               className="text-link mt-2"
             >
