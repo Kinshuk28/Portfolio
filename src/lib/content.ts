@@ -24,6 +24,19 @@ export type Entry = {
 
 export const experience: Entry[] = [
   {
+    date: "Apr–May 2026",
+    title: "Process Design & Transformation Intern",
+    org: "IndiaMART InterMESH Ltd.",
+    bullets: [
+      "Built an HRBP dashboard for 2,400+ records, eliminating backend costs and cutting reporting time by 50%",
+      "Engineered AI context from 26+ cross-tabs, cutting ad-hoc analysis from hours to ~10 seconds per query",
+      "Designed a 5-step form with 9 smart filters routing questions by context, cutting free-text responses by 60%",
+      "Benchmarked data collection against 6 sources including Gallup, McKinsey, and HBR, identifying 7 critical gaps",
+      "Engineered a 3-stage AI-powered n8n pipeline to screen 1,000+ candidates with live score tracking",
+      "Automated candidate shortlisting and follow-up, cutting manual processing by ~75% (130+ hours per month)",
+    ],
+  },
+  {
     date: "2025–Present",
     title: "MBA Candidate",
     org: "Indian Institute of Management, Udaipur",
