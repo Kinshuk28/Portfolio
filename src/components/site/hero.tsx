@@ -20,7 +20,7 @@ export function Hero() {
 
       <div className="relative z-[2] max-w-[1180px] mx-auto px-6 md:px-10 w-full">
         <Reveal as="p" className="font-mono text-[.82rem] text-muted-foreground tracking-wide mb-7">
-          MBA Candidate, IIM Udaipur — Delhi, India
+          MBA Candidate, IIM Udaipur · Delhi, India
         </Reveal>
 
         <h1
@@ -35,7 +35,7 @@ export function Hero() {
           delay={120}
           className="font-mono text-[clamp(.95rem,1.6vw,1.15rem)] tracking-wide uppercase mb-7"
         >
-          Strategic Thinker <span className="text-primary mx-1">—</span> Workflow Builder
+          Strategic Thinker <span className="text-primary mx-1">·</span> Workflow Builder
         </Reveal>
 
         <Reveal

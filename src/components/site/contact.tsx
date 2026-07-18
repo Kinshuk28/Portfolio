@@ -31,7 +31,7 @@ export function Contact() {
             <span className="text-foreground/80">strategy, or football.</span>
           </>
         }
-        description="Whether it's a strategy problem, a project collaboration, or just talking football — I'd love to hear from you."
+        description="Whether it's a strategy problem, a project collaboration, or just talking football, I'd love to hear from you."
         ctaLabel={copied ? "Copied!" : "Copy Email"}
         onCtaClick={copyEmail}
         accentColor="#B45309"
