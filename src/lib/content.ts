@@ -24,7 +24,7 @@ export type Entry = {
 
 export const experience: Entry[] = [
   {
-    date: "2025 — Present",
+    date: "2025–Present",
     title: "MBA Candidate",
     org: "Indian Institute of Management, Udaipur",
     bullets: [
@@ -34,7 +34,7 @@ export const experience: Entry[] = [
     ],
   },
   {
-    date: "Sep 2024 — Feb 2025",
+    date: "Sep 2024–Feb 2025",
     title: "Business Analyst",
     org: "Turing Enterprises Inc.",
     bullets: [
@@ -44,7 +44,7 @@ export const experience: Entry[] = [
     ],
   },
   {
-    date: "Jun — Jul 2023",
+    date: "Jun–Jul 2023",
     title: "Summer Trainee",
     org: "Delhi Metro Rail Corporation Ltd.",
     bullets: [
@@ -53,7 +53,7 @@ export const experience: Entry[] = [
     ],
   },
   {
-    date: "Jun — Jul 2022",
+    date: "Jun–Jul 2022",
     title: "Summer Trainee",
     org: "Bharat Heavy Electricals Limited",
     bullets: [
@@ -62,7 +62,7 @@ export const experience: Entry[] = [
     ],
   },
   {
-    date: "2020 — 2024",
+    date: "2020–2024",
     title: "B.Tech, Mechanical Engineering",
     org: "Netaji Subhas University of Technology",
     bullets: [
@@ -83,7 +83,7 @@ export const leadership: Entry[] = [
     date: "2023",
     title: "PR Head",
     org: "Team Daedulus Racing, NSUT",
-    body: "Led marketing and outreach for NSUT's all-terrain vehicle racing team — boosting social media reach by 250% and helping the team place Top 30 out of 300+ institutions at SAE BAJA India.",
+    body: "Led marketing and outreach for NSUT's all-terrain vehicle racing team, boosting social media reach by 250% and helping the team place Top 30 out of 300+ institutions at SAE BAJA India.",
   },
 ]
 
@@ -121,28 +121,28 @@ export const work = [
     title: "Fine-Tuning Apple's LLM",
     tag: "AI / ML",
     org: "Turing Enterprises Inc.",
-    body: "Trained Apple's LLM on 240K+ data points via RLHF — cutting latency 15%, improving consistency 20%, and reducing user complaints by 25% through better alignment with user intent.",
+    body: "Trained Apple's LLM on 240K+ data points via RLHF, cutting latency 15%, improving consistency 20%, and reducing user complaints by 25% through better alignment with user intent.",
   },
   {
     index: "02",
     title: "FDM-Based 3D Printer",
     tag: "Engineering",
     org: "Personal Project",
-    body: "Designed and assembled a 3D printer end-to-end — frame, stepper motors, heating elements, and calibration — achieving a 30% cost reduction versus commercial alternatives.",
+    body: "Designed and assembled a 3D printer end-to-end (frame, stepper motors, heating elements, and calibration), achieving a 30% cost reduction versus commercial alternatives.",
   },
   {
     index: "03",
     title: "Surface Roughness Optimization of SS321",
     tag: "Research",
     org: "Academic Research",
-    body: "Used ANOVA and a Genetic Algorithm to optimize cutting speed, feed rate, and depth of cut — achieving a 29% reduction in surface roughness on stainless steel.",
+    body: "Used ANOVA and a Genetic Algorithm to optimize cutting speed, feed rate, and depth of cut, achieving a 29% reduction in surface roughness on stainless steel.",
   },
   {
     index: "04",
     title: "Metro Systems Evaluation",
     tag: "Engineering",
     org: "Delhi Metro Rail Corporation",
-    body: "Evaluated 8 metro subsystems — including regenerative braking and air suspension — and compiled a 25+ page technical report on operations, failures, and safety.",
+    body: "Evaluated 8 metro subsystems, including regenerative braking and air suspension, and compiled a 25+ page technical report on operations, failures, and safety.",
   },
 ]
 

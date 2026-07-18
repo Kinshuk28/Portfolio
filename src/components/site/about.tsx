@@ -28,7 +28,7 @@ export function About() {
               )}
             </div>
             <span className="font-mono text-[.72rem] text-muted-foreground/70 tracking-wide">
-              Fig. 01 — Kinshuk Khandelwal
+              Fig. 01 · Kinshuk Khandelwal
             </span>
           </Reveal>
 
@@ -38,16 +38,16 @@ export function About() {
               that's taken me from engineering workshops to AI labs to community leadership.
             </Reveal>
             <Reveal as="p" delay={120} className="text-muted-foreground max-w-[640px] mb-5">
-              I started out in mechanical engineering — testing turbines at BHEL, evaluating metro systems at
+              I started out in mechanical engineering, testing turbines at BHEL, evaluating metro systems at
               DMRC, and designing a 3D printer from scratch. That hands-on, systems-first thinking carried into
               my work as a Business Analyst at Turing Enterprises, where I helped fine-tune large language
-              models — including work that trained Apple's LLM — through reinforcement learning from human
+              models (including work that trained Apple's LLM) through reinforcement learning from human
               feedback.
             </Reveal>
             <Reveal as="p" delay={180} className="text-muted-foreground max-w-[640px] mb-5">
               Outside of resumes and reports, I organize community events for Delhi's Real Madrid fan base and
               helped steer an all-terrain vehicle racing team's outreach to a top-30 national finish. I like
-              building things — whether that's a model, a machine, or a room full of 600 football fans.
+              building things, whether that's a model, a machine, or a room full of 600 football fans.
             </Reveal>
             <Reveal
               as="a"
