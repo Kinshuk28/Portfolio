@@ -1,13 +1,14 @@
 import { SectionHead } from "@/components/site/section-head"
 import { Reveal } from "@/components/site/reveal"
+import { DitherCard } from "@/components/ui/dither-card"
 import { skills } from "@/lib/content"
 
 export function Skills() {
   return (
-    <section id="skills" className="scroll-mt-[84px] border-t border-border py-24 md:py-[120px]">
+    <section id="skills" className="scroll-mt-[84px] py-24 md:py-[120px]">
       <div className="max-w-[1180px] mx-auto px-6 md:px-10">
         <SectionHead num="03" title="Skills" />
-        <div className="border-t border-border">
+        <DitherCard className="p-8 sm:p-10 md:p-14">
           {skills.map((group, i) => (
             <Reveal
               key={group.title}
@@ -19,7 +20,7 @@ export function Skills() {
               <p className="text-muted-foreground text-[1.02rem] leading-[1.7]">{group.items}</p>
             </Reveal>
           ))}
-        </div>
+        </DitherCard>
       </div>
     </section>
   )

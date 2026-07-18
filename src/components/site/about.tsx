@@ -2,6 +2,7 @@ import { useState } from "react"
 import { SectionHead } from "@/components/site/section-head"
 import { Reveal } from "@/components/site/reveal"
 import { Stat } from "@/components/site/stat"
+import { DitherCard } from "@/components/ui/dither-card"
 import { stats } from "@/lib/content"
 import { cn } from "@/lib/utils"
 
@@ -9,10 +10,11 @@ export function About() {
   const [photoError, setPhotoError] = useState(false)
 
   return (
-    <section id="about" className="scroll-mt-[84px] border-t border-border py-24 md:py-[120px]">
+    <section id="about" className="scroll-mt-[84px] py-24 md:py-[120px]">
       <div className="max-w-[1180px] mx-auto px-6 md:px-10">
         <SectionHead num="01" title="About" />
 
+        <DitherCard className="p-8 sm:p-10 md:p-14">
         <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] lg:grid-cols-[260px_1fr] gap-12 lg:gap-[72px] mb-20">
           <Reveal as="div" className="flex flex-col gap-3 max-w-[220px] md:max-w-none">
             <div className="aspect-[3/4] border border-foreground bg-card flex items-center justify-center overflow-hidden">
@@ -77,6 +79,7 @@ export function About() {
             />
           ))}
         </div>
+        </DitherCard>
       </div>
     </section>
   )
