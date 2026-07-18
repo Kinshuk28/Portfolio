@@ -1,13 +1,14 @@
 import { SectionHead } from "@/components/site/section-head"
 import { Reveal } from "@/components/site/reveal"
+import { DitherCard } from "@/components/ui/dither-card"
 import { work } from "@/lib/content"
 
 export function Work() {
   return (
-    <section id="work" className="scroll-mt-[84px] border-t border-border py-24 md:py-[120px]">
+    <section id="work" className="scroll-mt-[84px] py-24 md:py-[120px]">
       <div className="max-w-[1180px] mx-auto px-6 md:px-10">
         <SectionHead num="04" title="Selected Work" />
-        <div className="border-t border-border">
+        <DitherCard className="p-8 sm:p-10 md:p-14">
           {work.map((item) => (
             <Reveal
               key={item.index}
@@ -29,7 +30,7 @@ export function Work() {
               </div>
             </Reveal>
           ))}
-        </div>
+        </DitherCard>
       </div>
     </section>
   )
