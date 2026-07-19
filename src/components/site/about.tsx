@@ -8,6 +8,7 @@ import { cn } from "@/lib/utils"
 
 export function About() {
   const [photoError, setPhotoError] = useState(false)
+  const [travelPhotoError, setTravelPhotoError] = useState(false)
 
   return (
     <section id="about" className="scroll-mt-[84px] py-24 md:py-[120px]">
@@ -32,6 +33,22 @@ export function About() {
             <span className="font-mono text-[.72rem] text-muted-foreground/70 tracking-wide">
               Fig. 01 · Kinshuk Khandelwal
             </span>
+
+            <div className="aspect-[3/4] border border-foreground bg-card flex items-center justify-center overflow-hidden mt-2">
+              {travelPhotoError ? (
+                <span className="font-display font-bold text-[2rem] text-muted-foreground/60">UK</span>
+              ) : (
+                <img
+                  src={`${import.meta.env.BASE_URL}travel.jpg`}
+                  alt="Kinshuk Khandelwal on a solo trip in the UK"
+                  onError={() => setTravelPhotoError(true)}
+                  className="w-full h-full object-cover grayscale contrast-[1.05]"
+                />
+              )}
+            </div>
+            <span className="font-mono text-[.72rem] text-muted-foreground/70 tracking-wide">
+              Fig. 02 · Solo trip, United Kingdom
+            </span>
           </Reveal>
 
           <div>
@@ -51,9 +68,13 @@ export function About() {
               helped steer an all-terrain vehicle racing team's outreach to a top-30 national finish. I like
               building things, whether that's a model, a machine, or a room full of 600 football fans.
             </Reveal>
+            <Reveal as="p" delay={240} className="text-muted-foreground max-w-[640px] mb-5">
+              I'm also drawn to new places and cultures: a solo trip took me from Edinburgh to London, and this
+              September I'm heading to Kedge Business School in France for an academic exchange.
+            </Reveal>
             <Reveal
               as="a"
-              delay={240}
+              delay={300}
               href={`${import.meta.env.BASE_URL}Kinshuk_Khandelwal_Resume.pdf`}
               download
               className="text-link mt-2"

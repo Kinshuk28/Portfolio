@@ -17,7 +17,16 @@ export function Skills() {
               className="grid grid-cols-1 md:grid-cols-[160px_1fr] lg:grid-cols-[240px_1fr] gap-6 lg:gap-10 py-7 border-b border-border"
             >
               <h3 className="font-mono text-[.82rem] uppercase tracking-wide pt-0.5">{group.title}</h3>
-              <p className="text-muted-foreground text-[1.02rem] leading-[1.7]">{group.items}</p>
+              <div className="flex flex-wrap gap-2.5">
+                {group.items.map((item) => (
+                  <span
+                    key={item}
+                    className="font-mono text-[.8rem] px-3.5 py-1.5 rounded-full border border-primary/20 bg-primary/5 text-foreground/85"
+                  >
+                    {item}
+                  </span>
+                ))}
+              </div>
             </Reveal>
           ))}
         </SectionCard>

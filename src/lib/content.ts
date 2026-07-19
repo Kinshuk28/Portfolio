@@ -112,19 +112,19 @@ export const badges = [
 export const skills = [
   {
     title: "AI & Analytics",
-    items: "RLHF Fine-Tuning · Model Evaluation · LLM Alignment · ANOVA · Genetic Algorithms · Executive Reporting",
+    items: ["RLHF Fine-Tuning", "Model Evaluation", "LLM Alignment", "ANOVA", "Genetic Algorithms", "Executive Reporting"],
   },
   {
     title: "Strategy & Business",
-    items: "Business Analysis · Product Management · Case Competitions · Financial Markets · Cross-functional Collaboration",
+    items: ["Business Analysis", "Product Management", "Case Competitions", "Financial Markets", "Cross-functional Collaboration"],
   },
   {
     title: "Engineering & Design",
-    items: "Mechanical Design · CAD · 3D Printing (FDM) · Systems Analysis · Quality Control",
+    items: ["Mechanical Design", "CAD", "3D Printing (FDM)", "Systems Analysis", "Quality Control"],
   },
   {
     title: "Tools & Certifications",
-    items: "Lean Six Sigma (Green Belt, in progress) · McKinsey Forward Program · IBM Product Management Cert.",
+    items: ["Lean Six Sigma (Green Belt, in progress)", "McKinsey Forward Program", "IBM Product Management Cert."],
   },
 ]
 

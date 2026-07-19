@@ -15,7 +15,9 @@ export function Work() {
               as="article"
               className="group grid grid-cols-[36px_1fr] md:grid-cols-[60px_1fr] gap-5 md:gap-8 py-10 border-b border-border transition-colors duration-300 hover:bg-[linear-gradient(to_right,transparent,rgba(180,83,9,.05)_4%,transparent_100%)]"
             >
-              <span className="font-mono text-[.85rem] text-foreground/70 pt-1.5">{item.index}</span>
+              <span className="font-mono text-[.78rem] text-primary border border-primary/30 rounded-full size-9 flex items-center justify-center shrink-0">
+                {item.index}
+              </span>
               <div>
                 <div className="flex items-baseline gap-4 flex-wrap mb-1.5">
                   <h3 className="font-display text-2xl font-bold transition-colors duration-300 group-hover:text-primary text-balance">
