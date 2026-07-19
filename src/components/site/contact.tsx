@@ -34,7 +34,6 @@ export function Contact() {
         description="Whether it's a strategy problem, a project collaboration, or just talking football, I'd love to hear from you."
         ctaLabel={copied ? "Copied!" : "Copy Email"}
         onCtaClick={copyEmail}
-        accentColor="#B45309"
       />
 
       <Reveal
