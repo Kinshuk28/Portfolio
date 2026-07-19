@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react"
 import { type ReactNode } from "react"
-import { DitherCard } from "@/components/ui/dither-card"
+import { SectionCard } from "@/components/ui/section-card"
 
 export interface CTASectionProps {
   eyebrow?: string
@@ -9,8 +9,6 @@ export interface CTASectionProps {
   ctaLabel?: string
   ctaHref?: string
   onCtaClick?: () => void
-  /** Dithering shader tint — defaults to the given demo's orange; pass your own accent to match a design system. */
-  accentColor?: string
 }
 
 export function CTASection({
@@ -30,7 +28,6 @@ export function CTASection({
   ctaLabel = "Start Typing",
   ctaHref,
   onCtaClick,
-  accentColor = "#EC4E02",
 }: CTASectionProps) {
   const button = (
     <button
@@ -46,10 +43,7 @@ export function CTASection({
   return (
     <section className="py-12 w-full flex justify-center items-center px-4 md:px-6">
       <div className="w-full max-w-7xl">
-        <DitherCard
-          accentColor={accentColor}
-          className="min-h-[600px] md:min-h-[600px] flex flex-col items-center justify-center"
-        >
+        <SectionCard className="min-h-[600px] md:min-h-[600px] flex flex-col items-center justify-center">
           <div className="px-6 max-w-4xl mx-auto text-center flex flex-col items-center">
             <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-primary/10 bg-primary/5 px-4 py-1.5 text-sm font-medium text-primary backdrop-blur-sm">
               <span className="relative flex h-2 w-2">
@@ -75,7 +69,7 @@ export function CTASection({
               button
             )}
           </div>
-        </DitherCard>
+        </SectionCard>
       </div>
     </section>
   )

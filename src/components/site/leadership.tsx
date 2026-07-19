@@ -1,7 +1,7 @@
 import { SectionHead } from "@/components/site/section-head"
 import { Entry } from "@/components/site/entry"
 import { Reveal } from "@/components/site/reveal"
-import { DitherCard } from "@/components/ui/dither-card"
+import { SectionCard } from "@/components/ui/section-card"
 import { leadership, badges } from "@/lib/content"
 
 export function Leadership() {
@@ -9,7 +9,7 @@ export function Leadership() {
     <section id="leadership" className="scroll-mt-[84px] py-24 md:py-[120px]">
       <div className="max-w-[1180px] mx-auto px-6 md:px-10">
         <SectionHead num="05" title="Leadership & Community" />
-        <DitherCard className="p-8 sm:p-10 md:p-14">
+        <SectionCard className="p-8 sm:p-10 md:p-14">
           {leadership.map((entry) => (
             <Entry key={entry.date} entry={entry} />
           ))}
@@ -21,7 +21,7 @@ export function Leadership() {
               </span>
             ))}
           </Reveal>
-        </DitherCard>
+        </SectionCard>
       </div>
     </section>
   )
