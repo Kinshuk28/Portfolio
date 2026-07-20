@@ -30,9 +30,6 @@ export function About() {
                 />
               )}
             </div>
-            <span className="font-mono text-[.72rem] text-muted-foreground/70 tracking-wide">
-              Fig. 01 · Kinshuk Khandelwal
-            </span>
 
             <div className="aspect-[3/4] border border-foreground bg-card flex items-center justify-center overflow-hidden mt-2">
               {travelPhotoError ? (
@@ -47,39 +44,30 @@ export function About() {
               )}
             </div>
             <span className="font-mono text-[.72rem] text-muted-foreground/70 tracking-wide">
-              Fig. 02 · Solo trip, United Kingdom
+              Love for travelling
             </span>
           </Reveal>
 
-          <div>
-            <Reveal as="p" className="font-display text-[1.3rem] leading-snug mb-5">
+          <div className="h-full flex flex-col justify-between gap-6">
+            <Reveal as="p" className="font-display text-[1.3rem] leading-snug">
               I'm currently pursuing my MBA at the Indian Institute of Management Udaipur, building on a path
               that's taken me from engineering workshops to AI labs to community leadership.
             </Reveal>
-            <Reveal as="p" delay={120} className="text-muted-foreground max-w-[640px] mb-5">
+            <Reveal as="p" delay={120} className="text-muted-foreground max-w-[640px]">
               I started out in mechanical engineering, testing turbines at BHEL, evaluating metro systems at
               DMRC, and designing a 3D printer from scratch. That hands-on, systems-first thinking carried into
               my work as a Business Analyst at Turing Enterprises, where I helped fine-tune large language
               models (including work that trained Apple's LLM) through reinforcement learning from human
               feedback.
             </Reveal>
-            <Reveal as="p" delay={180} className="text-muted-foreground max-w-[640px] mb-5">
+            <Reveal as="p" delay={180} className="text-muted-foreground max-w-[640px]">
               Outside of resumes and reports, I organize community events for Delhi's Real Madrid fan base and
               helped steer an all-terrain vehicle racing team's outreach to a top-30 national finish. I like
               building things, whether that's a model, a machine, or a room full of 600 football fans.
             </Reveal>
-            <Reveal as="p" delay={240} className="text-muted-foreground max-w-[640px] mb-5">
+            <Reveal as="p" delay={240} className="text-muted-foreground max-w-[640px]">
               I'm also drawn to new places and cultures: a solo trip took me from Edinburgh to London, and this
               September I'm heading to Kedge Business School in France for an academic exchange.
-            </Reveal>
-            <Reveal
-              as="a"
-              delay={300}
-              href={`${import.meta.env.BASE_URL}Kinshuk_Khandelwal_Resume.pdf`}
-              download
-              className="text-link mt-2"
-            >
-              Download Résumé <span>↓</span>
             </Reveal>
           </div>
         </div>

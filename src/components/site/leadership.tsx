@@ -1,8 +1,7 @@
 import { SectionHead } from "@/components/site/section-head"
 import { Entry } from "@/components/site/entry"
-import { Reveal } from "@/components/site/reveal"
 import { SectionCard } from "@/components/ui/section-card"
-import { leadership, badges } from "@/lib/content"
+import { leadership } from "@/lib/content"
 
 export function Leadership() {
   return (
@@ -13,14 +12,6 @@ export function Leadership() {
           {leadership.map((entry) => (
             <Entry key={entry.date} entry={entry} />
           ))}
-
-          <Reveal as="div" className="flex flex-wrap gap-2.5 mt-14 pt-10 border-t border-border">
-            {badges.map((badge) => (
-              <span key={badge} className="font-mono text-[.75rem] px-3.5 py-2 border border-border text-muted-foreground">
-                {badge}
-              </span>
-            ))}
-          </Reveal>
         </SectionCard>
       </div>
     </section>
