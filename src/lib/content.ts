@@ -42,8 +42,9 @@ export const experience: Entry[] = [
     org: "Indian Institute of Management, Udaipur",
     bullets: [
       "Pursuing an MBA with a focus on strategy, analytics, and product",
-      "Scored 99.11 %ile (XAT Decision-Making) and 99.07 %ile (CAT)",
+      "Scored 99.11 %ile in XAT Decision-Making",
       "Completed the McKinsey Forward Program and an IBM Product Management certification",
+      "Placed in the top 79 of 867 teams in a case competition",
     ],
   },
   {
@@ -98,15 +99,6 @@ export const leadership: Entry[] = [
     org: "Team Daedulus Racing, NSUT",
     body: "Led marketing and outreach for NSUT's all-terrain vehicle racing team, boosting social media reach by 250% and helping the team place Top 30 out of 300+ institutions at SAE BAJA India.",
   },
-]
-
-export const badges = [
-  "99.11%ile XAT Decision-Making",
-  "99.07%ile CAT",
-  "Top 6%ile JEE Mains",
-  "Top 79/867 Case Competition",
-  "McKinsey Forward Program",
-  "IBM Product Management Certified",
 ]
 
 export const skills = [
